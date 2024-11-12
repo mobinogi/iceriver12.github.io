@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const updateAlarmDisplay = () => {
             document.getElementById('benatus-alarm-time').innerHTML =
-                `<span style="color: gray;">다음 알람 시간: <span style="color: red;">${nextAlarmTime.toLocaleTimeString()}</span>`;
+                `<span style="font-family: 'GmarketLight', Arial, sans-serif; color: gray;">다음 알람 시간: <span style="font-family: 'GmarketLight', Arial, sans-serif; color: red;">${nextAlarmTime.toLocaleTimeString()}</span>`;
         };
 
         updateAlarmDisplay();

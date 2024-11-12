@@ -16,10 +16,14 @@ document.addEventListener('DOMContentLoaded', function () {
     alarmButton.addEventListener('click', function () {
         alarmEnabled = !alarmEnabled;
         if (alarmEnabled) {
-            alarmStatus.textContent = "알람 활성화됨";
+            alarmStatus.innerHTML = `<span style="font-family: 'GmarketLight', Arial, sans-serif;">
+            알람 활성화됨
+        </span>`;
             startWorldBossAlarm();
         } else {
-            alarmStatus.textContent = "알람 비활성화";
+            alarmStatus.innerHTML = `<span style="font-family: 'GmarketLight', Arial, sans-serif;">
+            알람 비활성화
+        </span>`;
             stopWorldBossAlarm();
         }
     });
