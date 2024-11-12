@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>길구 보스 알람</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- 로고 섹션 -->
+   <div class="logo"></div>
+   
+    <div id="world-boss-container" class="alarm-container">
+        <h2 id="world-boss-title">월드 보스</h2>
+        <button id="toggle-world-boss-alarm">알람 설정</button>
+        <div id="world-boss-alarm-status">알람 비활성화</div>
+        <audio id="world-boss-alarm-sound" src="world_boss_alarm.mp3" preload="auto"></audio>
+    </div>
+ <br>
+    <div id="biorent-container" class="alarm-container">
+        <h2 id="biorent-title">비오렌트</h2>
+        <div class="time-selector">
+            <select id="biorent-period">
+                <option value="AM">오전</option>
+                <option value="PM">오후</option>
+            </select>
+            <input type="number" id="biorent-hours" min="1" max="12" value="1"><span class="time-label">시</span>
+            <input type="number" id="biorent-minutes" min="0" max="59" value="0"><span class="time-label">분</span>
+        </div>
+        <button id="set-biorent-alarm">알람 설정</button>
+        <div id="biorent-alarm-time"></div>
+        <audio id="biorent-alarm-sound" src="biorent_alarm.mp3" preload="auto"></audio>
+    </div>
+ <br>
+    <!-- 베나투스 알람 -->
+    <div id="benatus-container" class="alarm-container">
+        <h2 id="benatus-title">베나투스</h2>
+        <div class="time-selector">
+            <select id="benatus-period">
+                <option value="AM">오전</option>
+                <option value="PM">오후</option>
+            </select>
+            <input type="number" id="benatus-hours" min="1" max="12" value="1"><span class="time-label">시</span>
+            <input type="number" id="benatus-minutes" min="0" max="59" value="0"><span class="time-label">분</span>
+        </div>
+        <button id="set-benatus-alarm">알람 설정</button>
+        <div id="benatus-alarm-time"></div>
+        <audio id="benatus-alarm-sound" src="benatus_alarm.mp3" preload="auto"></audio>
+    </div>
+    
+    <script src="world_boss.js"></script>
+    <script src="biorent.js"></script>
+    <script src="benatus.js"></script>
+</body>
+</html>
