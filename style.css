@@ -126,7 +126,7 @@ h2, #world-boss-alarm-status, .alarm-container button, select, input[type="numbe
 
 button {
     padding: 7px 16px;
-    background: linear-gradient(45deg, #4d8bff, #1a5aff);
+    background: linear-gradient(45deg, #194bca, #1a5aff);
     color: #ffffff !important; /* 글자 색상을 흰색으로 강제 변경 */
     border: none;
     border-radius: 4px;
