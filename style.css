@@ -198,3 +198,17 @@ button:active {
     box-shadow: none !important;
     text-shadow: none !important;
 }
+
+.footer {
+    text-align: center; /* 중앙 정렬 */
+    margin-top: 30px; /* 위쪽 여백 추가 */
+    padding: 10px;
+    background-color: none; /* 배경 색상 (원하는 대로 수정 가능) */
+    color: #333; /* 텍스트 색상 */
+    font-family: 'GmarketLight', Arial, sans-serif; /* 폰트 설정 */
+    font-size: 14px;
+}
+
+.footer p {
+    margin: 5px 0; /* 문단 간격 조절 */
+}
