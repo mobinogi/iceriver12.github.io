@@ -124,6 +124,18 @@ h2, #world-boss-alarm-status, .alarm-container button, select, input[type="numbe
     margin-top: 0 !important; /* 상단 간격 제거 */
     margin-bottom: 10px !important; /* 아래 간격 조절 */
 }
+
+#biorent-alarm-time.alarm-time-label,
+#benatus-alarm-time.alarm-time-label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: grey;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8), 
+                 -1px -1px 2px rgb(255, 255, 255),
+                 1px -1px 2px rgba(255, 255, 255, 0.5),
+                 -1px 1px 2px rgba(255, 255, 255, 0.1);
+}
+
 .time-selector {
     display: flex;
     gap: 10px;
