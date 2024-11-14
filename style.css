@@ -213,3 +213,7 @@ button:active {
 .footer p {
     margin: 5px 0; /* 문단 간격 조절 */
 }
+
+.footer a:hover {
+    text-decoration: none; /* 호버 시에도 밑줄 제거 */
+}
