@@ -45,7 +45,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #d4d4d4; /* 배경색을 이미지에서 추출한 색으로 변경 */
+    background-color: none; /* 배경색을 이미지에서 추출한 색으로 변경 */
     background-image: url('clear-white-plaster-texture-pattern.jpg');
     background-size: cover; /* 화면에 맞게 확장 */
     background-repeat: no-repeat; /* 반복하지 않음 */
