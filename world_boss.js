@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // 알람을 울릴 시간 설정 (오전 11:55와 오후 7:55)
     const alarmTimes = [
         { hours: 11, minutes: 55, period: 'AM' },
-        { hours: 7, minutes: 55, period: 'PM' }
+        { hours: 6, minutes: 55, period: 'PM' }
     ];
 
     // 알람 설정/해제 버튼 클릭 시 동작
